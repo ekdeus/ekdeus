@@ -4,10 +4,10 @@ n = int(input())
 
 if n < 2:
     print("A number must be 2 and more")
-    quit()
+    #quit()
 elif n == 2:
     print("It's prime number")
-    quit()
+    #quit()
 
 i = 2
 limit = int(math.sqrt(n))
@@ -15,7 +15,7 @@ limit = int(math.sqrt(n))
 while i <= limit:
     if n % i == 0:
         print("This is composite number")
-        quit()
+        #quit()
     i += 1
 
 print("It's prime number")
@@ -31,12 +31,12 @@ n = int(input())
 if n < 2:
     print("A number must be 2 and more")
     # выход из программы
-    quit()
+    #quit()
 # Если число равно 2, то оно простое.
 elif n == 2:
     print("It's prime number")
     # выход из программы
-    quit()
+    #quit()
 
 # переменная-делитель, которая будет последовательно
 # увеличиваться на 1 в цикле
@@ -55,7 +55,7 @@ while i <= limit:
         # то это составное число. Вывести соответствующее сообщение
         print("This is composite number")
         # и выйти из программы
-        quit()
+        #quit()
     # Увеличить делитель на 1
     i += 1
 
